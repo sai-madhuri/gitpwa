@@ -1,0 +1,165 @@
+.parent{
+  display: flex;
+  flex-direction: row;
+  border:3px solid #85929E;
+
+    padding: 3%;
+
+}
+
+.child1{
+  border:3px solid #F0B27A;
+  padding: 3%;
+  margin: 2%;
+  width: 90%;
+  font-size: 90%;
+
+  font-style: normal;
+    border-radius: 5%;
+    text-align: center;
+}
+.child2{
+  border:3px solid #AF7AC5;
+  padding: 10%;
+  width: 90%;
+    border-radius: 5%;
+
+}
+table{
+  width: 110%;
+
+}
+td{
+  padding: 2%;
+}
+img{
+  width: 60%;
+  border: 5px solid #FFA07A;
+  border-radius: 50%;
+  box-shadow: 1px 2px 4px;
+
+}
+@media only screen  and (max-width: 480px){
+  .parent{
+    display: flex;
+    flex-direction: column;
+    border:3px solid #A6ACAF;
+
+      padding: 3%;
+
+  }
+  a{word-wrap: break-word;}
+  .child1{
+    border:3px solid #EC7063;
+    padding: 3%;
+    margin: 2%;
+    width: 50%;
+    font-size: 70%;
+    background-color: #82E0AA;
+    font-style: normal;
+      border-radius: 5%;
+      text-align: center;
+  }
+  .child2{
+    border:3px solid purple;
+    padding: 10%;
+    width: 70%;
+      border-radius: 5%;
+  }
+  table{
+    width: 110%;
+
+  }
+  td{
+    padding: 2%;
+  }
+  img{
+    width: 60%;
+    border: 5px solid skyblue;
+    border-radius: 50%;
+    box-shadow: 1px 2px 4px;
+
+  }
+}
+@media only screen  and (min-width: 480px) and (max-width: 760px){
+  .parent{
+    display: flex;
+    flex-direction: row;
+    border:3px solid skyblue;
+
+      padding: 3%;
+
+  }
+  a{word-wrap: break-word;}
+  .child1{
+    border:3px solid orange;
+    padding: 3%;
+    margin: 2%;
+flex-direction: row;
+    width: 50%;
+    font-size: 70%;
+    background-color: #A6ACAF;
+    font-style: normal;
+    text-align: left;
+      border-radius: 5%;
+
+  }
+  .child2{
+    border:3px solid purple;
+    padding: 10%;
+    width: 70%;
+
+      border-radius: 5%;
+  }
+  table{
+    width: 110%;
+
+  }
+  td{
+    padding: 2%;
+  }
+  img{
+    width: 60%;
+    border: 5px solid skyblue;
+    border-radius: 50%;
+    box-shadow: 1px 2px 4px;
+
+  }
+
+}
+@media only screen  and (min-width: 761px) and (max-width: 1024px){
+  .parent{
+    display: flex;
+    flex-direction: column;
+    border:3px solid yellow;
+
+      padding: 3%;
+
+  }
+  a{word-wrap: break-word;}
+  .child1{
+    border:3px solid lavender;
+    padding: 3%;
+    margin: 2%;
+    width: 50%;
+    font-size: 70%;
+    background-color: skyblue;
+    font-style: normal;
+      border-radius: 5%;
+      text-align: center;
+  }
+  .child2{
+    border:3px solid purple;
+    padding: 10%;
+    width: 70%;
+      border-radius: 5%;
+  }
+  img{
+    width: 60%;
+    border: 5px solid skyblue;
+    border-radius: 50%;
+    box-shadow: 1px 2px 4px;
+
+  }
+
+}

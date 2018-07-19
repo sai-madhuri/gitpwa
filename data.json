@@ -1,0 +1,54 @@
+{
+  "basics":{
+  "image":"girl-512.png",
+  "name":"martin",
+  "pno":"999999999",
+  "mail":"sameerasrigeddapu@gmail.com",
+  "adress":"SRKR college,bhimavaram"
+},
+"careerobjective":{
+  "info": "To pursue a challenging career and be a part of progressive organization"
+
+},
+"education":[
+  {
+    "degree":"ssc",
+    "institute":"narayana",
+    "data":["2014","9.3"]
+  },
+  {
+    "degree":"inter",
+    "institute":"narayana",
+    "data":["2014-2016","9.7"]
+  },
+  {
+    "degree":"btech",
+    "institute":"srkr",
+    "data":["2016-2020","8.6"]
+  }
+],
+"skills":[
+  {
+    "title":"languages",
+    "data":["c","c++","java","python"]
+  },
+  {
+    "title":"databases",
+    "data":["MYSQL","Oracle","SQL"]
+  },
+  {
+    "title":"operating systems",
+    "data":["windows","linux"]
+  }
+],
+"achievements":[
+  {
+    "type":"soft skills",
+    "ac":["BEC vantage B1 grade"]
+  },
+  {
+    "type":"workshops",
+    "ac":["Big data","mean stack","progressive web apps"]
+  }
+]
+}
